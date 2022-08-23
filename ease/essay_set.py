@@ -12,7 +12,7 @@ import logging
 from konlpy.tag import Okt
 import re
 from hanspell import spell_checker
-import KorEDA.eda
+#import KorEDA.eda
 from external_code import pusanCorrectGrammer, dataAumentationByTranslation
 
 base_path = os.path.dirname(__file__)

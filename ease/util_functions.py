@@ -2,7 +2,7 @@
 #Requires aspell to be installed and added to the path
 
 from fisher import pvalue
-from external_code import pusanCorrectGrammer
+#from external_code import pusanCorrectGrammer
 
 aspell_path = "aspell"
 import re
@@ -11,7 +11,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 import numpy
 from itertools import chain
 import math
-import nltk
 import pickle
 import logging
 import sys
